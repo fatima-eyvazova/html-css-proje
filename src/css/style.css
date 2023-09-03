@@ -333,9 +333,13 @@ a,button{
 .services-bottom-element:hover{
     background-color: #e9204f;
 }
+
+.services-bottom-element:hover .services-title{
+    transform: translate(20px);
+}
+
 .services-bottom-element:hover>svg{
     transform: translate(10px);
-    background-color: #e9204f;
     color: white;
 }
 
@@ -352,13 +356,8 @@ a,button{
     line-height: 24px;
 }
 
-.services-title:hover{
-    transform: translate(20px);
-}
-
 .services-bottom-element svg{
     color: #747474;
-    background-color: #f3f3f3;
      width: 25px;
      height: 25px;
 }
@@ -459,6 +458,7 @@ a,button{
     background-position: 50% 50%;
     background-repeat: no-repeat;
     filter: grayscale(100%) ;
+    transition: .5s;
 
 }
 
@@ -475,11 +475,13 @@ a,button{
     background-position: 50% 50%;
     background-repeat: no-repeat;
     filter: grayscale(100%) ;
+    transition: .5s;
 
 }
 .works-bottom-element{
     width: 475px;
     height: 475px;
+    overflow: hidden;
 }
 
 .works-bottom-element-tree{
@@ -502,19 +504,19 @@ a,button{
 
 .works-bottom-element-one:hover{
     filter: grayscale(0%) ;
-   -webkit-transform: scale(1.01);
-    transform: scale(1.01);
+   -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .works-bottom-element-two:hover{
     filter: grayscale(0%) ;
-   -webkit-transform: scale(1.01);
-    transform: scale(1.01);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 .works-bottom-element-tree:hover{
     filter: grayscale(0%) ;
-   -webkit-transform: scale(1.01);
-    transform: scale(1.01);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .works-bottom-element-one:hover>.title{
